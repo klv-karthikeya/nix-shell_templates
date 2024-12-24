@@ -5,8 +5,6 @@ pkgs.mkShell {
 
   shellHook = ''
     # This runs when the shell starts; you can add any custom logic here if needed
-    export SHELL="${pkgs.fish}/bin/fish"
-    exec "${pkgs.fish}/bin/fish"
   '';
 }
 

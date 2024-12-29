@@ -1,3 +1,3 @@
-# declaratively utilize the files
+# declaratively declare disk configuration
 disko
 
